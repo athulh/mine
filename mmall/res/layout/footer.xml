@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/thegrtframe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/normlt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#999"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnstated"
+                android:onClick="search"
+                android:scaleType="center"
+                android:src="@drawable/android_menu_search" />
+
+            <ImageView
+                android:id="@+id/alcat_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnstated"
+                android:onClick="allcat"
+                android:scaleType="center"
+                android:src="@drawable/android_menu_more" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnstated"
+                android:onClick="useracc"
+                android:scaleType="center"
+                android:src="@drawable/android_menu_your_account" />
+
+            <ImageView
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/btnstated"
+                android:onClick="gokart"
+                android:scaleType="center"
+                android:src="@drawable/android_menu_cart" />
+        </LinearLayout>
+        
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/searchnow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" >
+
+        <EditText
+            android:id="@+id/search_et_content1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/button1"
+            android:layout_weight="9"
+            android:ems="10" />
+
+    <ImageButton
+        android:id="@+id/search_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_action_search" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/search_et_content1"
+        android:layout_alignBottom="@+id/search_et_content1"
+        android:layout_alignParentLeft="true"
+        android:onClick="ohgoback"
+        android:text="Back" />
+
+</RelativeLayout>
+    </FrameLayout>
+
+</merge>

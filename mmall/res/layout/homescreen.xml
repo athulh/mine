@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/TableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="#00aeef" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00aeef" >
+
+            <TextView
+                android:id="@+id/hmscrn_landtv1"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/hmscrn_landtv2"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/hmscrn_landtv3"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="#00aeef" >
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00aeef" >
+
+            <TextView
+                android:id="@+id/hmscrn_landtv4"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/hmscrn_landtv5"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/hmscrn_landtv6"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+        </TableRow>
+
+        <include layout="@layout/footer" />
+
+    </LinearLayout>

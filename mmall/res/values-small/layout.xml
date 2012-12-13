@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  
+    <item type="bool" name="portr">false</item>
+    <item type="bool" name="lyt">login_small</item>
+</resources>

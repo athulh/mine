@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">mmall</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_log_in">Log_in</string>
+    <string name="title_activity_prdct_dtls">Prdct_dtls</string>
+    <string name="title_activity_mainsearch">Mainsearch</string>
+    <string name="title_activity_sellerdetails">Sellerdetails</string>
+    <string name="title_activity_allcatogoriesview">Allcatogoriesview</string>
+    <string name="title_activity_buydetails">Buydetails</string>
+    <string name="title_activity_mycart">Mycart</string>
+    <string name="title_activity_payment">Payment</string>
+    <string name="title_activity_changeshippingadress">Changeshippingadress</string>
+    <string name="title_activity_userdetails">Userdetails</string>
+
+</resources>

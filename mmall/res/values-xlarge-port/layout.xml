@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="login">@layout/login_xlarge_port
+    </item>
+    <item type="bool" name="portr">true</item>
+    <item type="bool" name="lyt">login_xlarge_p</item>
+</resources>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/full"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/topgrad"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bluegradient"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="#00aeef" >
+
+            <ImageView
+                android:id="@+id/lImageView01"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/commonbgwhiteorange"
+                android:cropToPadding="true"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/lImageView02"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/commonbgwhiteorange"
+                android:cropToPadding="true"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00aeef" >
+
+            <TextView
+                android:id="@+id/hmscrntv_port1"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/hmscrntv_port2"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="#00aeef" >
+
+            <ImageView
+                android:id="@+id/limageView03"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/commonbgwhiteorange"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/limageView04"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/commonbgwhiteorange"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00aeef" >
+
+            <TextView
+                android:id="@+id/hmscrntv_port3"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/hmscrntv_port4"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="#00aeef" >
+
+            <ImageView
+                android:id="@+id/limageView05"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/commonbgwhiteorange"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/limageView06"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/commonbgwhiteorange"
+                android:onClick="prdctdtls"
+                android:src="@drawable/ic_launcher" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00aeef" >
+
+            <TextView
+                android:id="@+id/hmscrntv_port5"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/hmscrntv_port6"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:lines="1"
+                android:text="TextView"
+                android:textColor="#000" />
+        </TableRow>
+
+        <include layout="@layout/footer" />
+    </TableLayout>
+
+</FrameLayout>
